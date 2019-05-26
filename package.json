@@ -1,0 +1,15 @@
+{
+  "name": "react-wot",
+  "version": "1.0.0",
+  "description": "Wrapper to use W3C Web of Things technology in React.js applications",
+  "main": "index.js",
+  "repository": "git@github.com:EcoG-io/react-wot.git",
+  "author": "Johannes Hund <johannes.hund@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@node-wot/binding-http": "^0.6.1",
+    "@node-wot/binding-websockets": "^0.6.1",
+    "@node-wot/core": "^0.6.1"
+  }
+}
