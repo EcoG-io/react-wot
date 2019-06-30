@@ -8,13 +8,14 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "@babel/runtime": "^7.4.5",
     "@node-wot/binding-http": "^0.6.1",
     "@node-wot/binding-websockets": "^0.6.1",
     "@node-wot/core": "^0.6.1",
     "react": "^16.8.6"
   },
   "scripts": {
-    "compile": "NODE_ENV=production babel src --out-dir lib --copy-files"
+    "build": "NODE_ENV=production babel src --out-dir lib --copy-files"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
